@@ -1,0 +1,8 @@
+.Cart .singlePro , .totall{
+    background-color: var(--sec-bg);
+    border: 1px solid var(--body-color);
+}
+.Cart .singlePro img{
+    width: 70px;
+    height: 70px;
+}

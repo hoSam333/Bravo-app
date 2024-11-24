@@ -1,0 +1,7 @@
+.Wishlist .card{
+    background-color: var(--sec-bg);
+    color: var(--body-color);
+}
+.Wishlist .card img{
+    height: 200px;
+}

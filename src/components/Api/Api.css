@@ -1,0 +1,5 @@
+.Api .card {
+    background-color: var(--sec-bg);
+    color: var(--body-color);
+    transition: 1s;
+}

@@ -1,0 +1,64 @@
+nav{
+    background-color: #3d464d !important;
+    color: #fff;
+    
+}
+.navbar-brand{
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 25px !important;
+}
+.navbar-brand span{
+    color: var(--main-color);
+}
+.nav-link{
+    color: #fff !important;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+}
+.nav-link:hover{
+    color: var(--main-color) !important;
+}
+nav .icones{
+    color: var(--main-color);
+}
+nav .icones sub{
+    color: #fff;
+}
+.dropdown-menu {
+    background-color: var(--main-color) !important;
+    padding: 10px !important;
+    width: 200px;
+}
+.dropdown-menu a {
+    font-weight: 500  !important;
+    font-size: 18px;
+}
+.icones a {
+    color: var(--main-color);
+}
+
+.icones div{
+    display: flex;
+    gap: 20px;
+
+}
+.icones .auth{
+    color: #fff;
+    position: relative;
+    transition: 0.5s;
+}
+.icones .auth:hover{
+    color: var(--main-color);
+}
+.icones .auth:nth-of-type(2)::after{
+    position: absolute;
+    content: '';
+
+    width: 1px;
+    height: 100%;
+    background-color: #fff;
+
+    left: -10px;
+    top: 0;
+}

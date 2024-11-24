@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --main-color : #cece2b ; 
+    --body-bg : #eee ;
+    --body-color : #000 ;
+    --sec-bg : #fff ;
+}
+.dark{
+    --body-bg : #000 ;
+    --body-color : #fff ;
+    --sec-bg : #333 ;
+}
+p{
+    margin: 0;
+}
+main{
+    font-family: "Tajawal", sans-serif;
+    background-color:var(--body-bg) !important;
+    color: var(--body-color);
+    transition: 0.5s;
+}
+.btn-outline-primary{
+    padding: 10px 20px ;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 18px;
+    transition: 0.5s;
+    border-radius: 0;
+}
+.btn-outline-primary:hover{
+    border: 2px solid #fff;
+    background-color: var(--main-color);
+    border-radius: 0;
+}
+
+
+
+.proces i{
+    padding: 10px 8px ;
+    color: #fff;
+    background-color: var(--main-color);
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.proces i:active{
+    border: 2px solid #000;
+    color: #000;
+    transform: scale(1.2);
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    transition: 0.5s;
+}
+
+
+.mood{
+    font-size: 28px;
+    cursor: pointer;
+    color: aqua;
+    animation: mood 1.5s ease infinite ;
+}
+@keyframes mood {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.logout{
+    transition: 0.5s;
+    cursor: pointer;
+    padding: 5px 15px;
+}
+.logout:hover{
+    background-color: #fff;
+    border-radius: 5px;
+    color: red !important;
+    letter-spacing: 1.5px;
+}

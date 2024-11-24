@@ -1,0 +1,105 @@
+.slidee{
+    height: 50vh;
+    /* margin-top: -33px; */
+}
+.men{
+    /* background-color: orange; */
+    background-image:linear-gradient(rgba(20,20,20,0.7),rgba(20,20,20,0.7)) , url(../../assets/images/carousel-1-B1coVWNc.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 50vh;
+    color: #fff;
+
+}
+.women{
+    /* background-color: blue; */
+    background-image:linear-gradient(rgba(20,20,20,0.7),rgba(20,20,20,0.7)) , url(../../assets/images/carousel-2--2x9VnkY.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 50vh;
+    color: #fff;
+}
+.kids{
+    /* background-color: yellow; */
+    background-image:linear-gradient(rgba(20,20,20,0.7),rgba(20,20,20,0.7)) , url(../../assets/images/carousel-3-CkLdEAwA.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 50vh;
+    color: #fff;
+}
+.men div,
+.women div ,
+.kids div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 50px;
+    text-align: center;
+}
+.slidee b{
+    font-size: 30px;
+}
+.slidee p{
+    font-weight: 500;
+    font-size: 20px;
+}
+.slidee button{
+    padding: 10px 20px ;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.slidee button:hover{
+    background-color: var(--main-color);
+}
+
+
+
+.offer{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.offer_one{
+    height: calc((50vh - 20px ) /2 );
+    background-image: url(../../assets/images/offer-1-DP1lQ_lP.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    gap: 5px;
+    
+}
+.offer p{
+    margin: 0;
+}
+.offer_two{
+
+    height: calc((50vh - 20px ) /2);
+    background-image: url(../../assets/images/offer-2-Cly2vTNH.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    gap: 5px;
+    
+}
+.offer p{
+    margin: 0;
+}

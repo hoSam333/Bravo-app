@@ -1,0 +1,12 @@
+.Services .one {
+    background-color:var(--sec-bg);
+    color: var(--body-color);
+    transition: 0.5s;
+}
+.Services i{
+    color: var(--main-color);
+}
+.Services .d-flex{
+    font-size: 20px;
+    font-weight: 500;
+}

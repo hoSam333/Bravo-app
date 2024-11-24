@@ -1,0 +1,9 @@
+form{
+    background-color: var(--body-bg) !important;
+    color: var(--body-color) !important;
+}
+
+form input{
+    background-color: var(--sec-bg) !important;
+    transition: 0.5s;
+}

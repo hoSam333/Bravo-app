@@ -1,0 +1,21 @@
+.Product .h2 {
+    color: var(--main-color);
+}
+.Product .fa-star{
+    color: gold;
+}
+
+.Product .one{
+    background-color:var(--sec-bg);
+    color: var(--body-color);
+    transition: 0.5s;
+}
+.Product .one div{
+    overflow: hidden    ;
+}
+.Product .one div img{
+    transition: 0.5s;
+}
+.Product .one div img:hover{
+    transform: scale(1.1);
+}
